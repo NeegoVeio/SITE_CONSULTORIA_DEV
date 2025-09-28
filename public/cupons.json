@@ -1,0 +1,17 @@
+[
+  {
+    "codigo": "JP15",
+    "desconto": 15,
+    "ativo": true
+  },
+  {
+    "codigo": "MULHER10",
+    "desconto": 10,
+    "ativo": false
+  },
+  {
+    "codigo": "WELCOME5",
+    "desconto": 5,
+    "ativo": true
+  }
+]
