@@ -98,7 +98,7 @@ export default {
       carrinho: JSON.parse(localStorage.getItem("carrinho") || "[]"),
       descontoPercentual: 15,
       cupomValido: JSON.parse(localStorage.getItem("cupomValido") || "false"),
-      whatsappNumber: process.env.VUE_APP_WHATSAPP_NUMBER || "5519992106777", // Número vindo do .env
+      whatsappNumber: process.env.VUE_APP_WHATSAPP_NUMBER || "55987654321", // Número vindo do .env
       nome: "",
       email: "",
       telefone: "",

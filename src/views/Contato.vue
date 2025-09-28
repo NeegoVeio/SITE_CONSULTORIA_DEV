@@ -44,7 +44,7 @@ export default {
       nome: "",
       email: "",
       mensagem: "",
-      whatsappNumber: process.env.VUE_APP_WHATSAPP_NUMBER || "5519994441098",
+      whatsappNumber: process.env.VUE_APP_WHATSAPP_NUMBER || "55987654321",
       erros: {
         nome: "",
         email: "",
