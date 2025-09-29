@@ -164,6 +164,7 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
 }
+
 /* Cupom */
 .cupom-container {
   max-width: 300px;
@@ -200,6 +201,7 @@ h1 {
   margin-top: 6px;
   display: block;
 }
+
 /* Cards */
 .cards-container {
   display: grid;
@@ -209,6 +211,7 @@ h1 {
 .card {
   background: white;
   border-radius: 15px;
+  border: 2px solid #1a54d9; /* azul padrão */
   box-shadow: 0 3px 6px #1a54d9;
   padding: 25px 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -223,6 +226,15 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 10px 20px #1a54d9;
 }
+
+/* ❗ Estilo para cards inativos (esgotados) */
+.card.inativo {
+  border: 2px solid #ff1900;
+  box-shadow: 0 3px 6px #ff1900;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
 .card h2 {
   color: #2575fc;
   margin-bottom: 15px;
@@ -262,18 +274,16 @@ button {
 button:hover {
   background-color: #1a54d9;
 }
+
 /* Esgotado */
 .esgotado-msg {
   margin-top: 20px;
-  color: #e74c3c;
+  color: #ff1900;
   font-weight: bold;
   font-size: 16px;
   text-align: center;
 }
-.card.inativo {
-  opacity: 0.7;
-  pointer-events: none;
-}
+
 /* Responsivo */
 @media (max-width: 900px) {
   .cards-container {
